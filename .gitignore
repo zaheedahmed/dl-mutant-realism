@@ -1,5 +1,11 @@
-# Generated results (do not commit)
-results/
+# Ignore everything in results by default...
+results/**
+
+# ...but keep CSVs (final artifacts)
+!results/**/*.csv
+
+# Keep folder structure even if empty (optional)
+!results/**/.gitkeep
 
 # Large artifacts
 *.h5
