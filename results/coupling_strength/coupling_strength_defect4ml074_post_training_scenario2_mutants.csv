@@ -1,0 +1,13 @@
+,FM_defect4ml074_faulty
+MM_defect4ml074_GF_0.01_1,1.0000 (unreliable)
+MM_defect4ml074_GF_0.1_1,0.9756 (unreliable)
+MM_defect4ml074_GF_0.2_1,0.9778 (unreliable)
+MM_defect4ml074_GF_0.6_1,0.9756 (unreliable)
+MM_defect4ml074_GF_1.0_1,0.9783 (unreliable)
+MM_defect4ml074_LA_0.01_1,0.0000 (unreliable)
+MM_defect4ml074_NAI_0.01_1,1.0000 (unreliable)
+MM_defect4ml074_NEB_0.01_1,0.0000 (unreliable)
+MM_defect4ml074_NEB_0.1_1,1.0000 (unreliable)
+MM_defect4ml074_NEB_0.2_1,0.9767 (unreliable)
+MM_defect4ml074_NS_0.2_1,0.9796 (unreliable)
+MM_defect4ml074_WS_0.2_1,0.9787 (unreliable)

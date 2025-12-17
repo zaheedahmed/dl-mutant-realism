@@ -1,0 +1,12 @@
+,FM_cleanml001_faulty
+MM_cleanml001_GF_0.01_1,0.6957 (reliable)
+MM_cleanml001_GF_0.1_1,0.3458 (reliable)
+MM_cleanml001_GF_0.2_1,0.5872 (reliable)
+MM_cleanml001_GF_0.6_1,0.3089 (reliable)
+MM_cleanml001_GF_1.0_1,0.3292 (reliable)
+MM_cleanml001_LA_0.01_1,0.9715 (reliable)
+MM_cleanml001_NAI_0.01_1,0.7121 (reliable)
+MM_cleanml001_NEB_0.01_1,0.6364 (reliable)
+MM_cleanml001_NEB_0.2_1,0.3323 (reliable)
+MM_cleanml001_NS_0.01_1,0.8387 (reliable)
+MM_cleanml001_WS_0.01_1,0.2466 (reliable)

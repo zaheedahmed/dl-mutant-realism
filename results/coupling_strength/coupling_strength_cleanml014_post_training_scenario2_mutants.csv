@@ -1,0 +1,13 @@
+,FM_cleanml014_faulty
+MM_cleanml014_GF_0.01_1,0.6680 (reliable)
+MM_cleanml014_GF_0.1_1,0.5163 (reliable)
+MM_cleanml014_GF_0.2_1,0.5451 (reliable)
+MM_cleanml014_GF_0.6_1,0.4349 (reliable)
+MM_cleanml014_GF_1.0_1,0.5304 (reliable)
+MM_cleanml014_LA_0.01_1,0.2834 (reliable)
+MM_cleanml014_NAI_0.01_1,0.5909 (reliable)
+MM_cleanml014_NAI_0.1_1,0.5969 (reliable)
+MM_cleanml014_NEB_0.01_1,0.6113 (reliable)
+MM_cleanml014_NEB_0.1_1,0.4424 (reliable)
+MM_cleanml014_NS_0.01_1,0.6650 (reliable)
+MM_cleanml014_WS_0.01_1,0.7865 (reliable)
