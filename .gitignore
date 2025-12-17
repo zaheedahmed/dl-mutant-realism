@@ -1,0 +1,16 @@
+# Generated results (do not commit)
+results/
+
+# Large artifacts
+*.h5
+*.npz
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
