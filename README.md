@@ -1,35 +1,72 @@
-# An Empirical Study of the Realism of Mutants in Deep Learning
+# Replication Package: Mutant Realism in Deep Learning
 
-## Data Collection
-Collect buggy and fixed versions for databugs and programs bugs.
+This repository is the **replication package** for the paper:
 
-### Data Bugs
-1. CleanML: Only buggy data is provided. We fixed with the CleanML technique and added default classification DNN to complete the bug-fix i.e. buggy data, fixed data, training program.
+> *An Empirical Study of the Realism of Mutants in Deep Learning*  
+> Zaheed Ahmed, Philip Makedonski, Jens Grabowski
 
-### Program Bugs
-We collected and analyzed program bugs from following dataset.
-1. DeepFD
-2. DeepLocalize
-3. defect4ml
+The repository should be read **in conjunction with the paper**.
 
-## Inclusion/Exclusion of Bugs
-1. Keras/TensorFlow sequential or functional model
-2. Classification task
-3. Training data available
-4. Evaluation data available
-5. Bug symptom is not crash
-6. Adaptable to python 3.8 without behavioral changes
-7. Standard layers are used
+---
 
-## Training Models
-1. Train n instances of original models
-2. Train n instances faulty models
-3. Train pre-training mutants each having n instances
-4. Train post-training mutants each having n instances
-5. Use model_validator.py to exclude any non-functional model or having instances < n
+## Contents of the Replication Package
 
-## Mutant Realism Analysis
-1. execution_matrix.py
-2. killing_probability.py
-3. quantify_realism.py
-4. visualization.ipynb
+```
+scripts/
+  execution_matrix.py
+  killing_probability.py
+  quantify_realism.py
+  model_validator.py
+  visualization.ipynb
+
+results/
+  execution_matrix/
+  killing_probability/
+  coupling_strength/
+  detectability_overlap/
+```
+
+- `scripts/` contains the analysis code used in the study.
+- `results/` contains the **final CSV result files** used to generate all figures reported in the paper.
+
+Intermediate artifacts (trained models, execution matrices per run, and killing probabilities) are not included.
+
+---
+
+## Reproducibility Scope
+
+Training the deep learning models used in this study is computationally expensive and may take weeks.  
+For this reason, this replication package **does not support rerunning model training**.
+
+Instead, it provides:
+- the complete analysis pipeline, and
+- the final CSV artifacts required to regenerate all reported figures.
+
+All boxplots and bar charts in the paper can be regenerated from the CSV files in `results/` using the visualization script.
+
+---
+
+## Regenerating Figures
+
+To regenerate the figures reported in the paper:
+
+1. Open and run:
+   ```
+   scripts/visualization.ipynb
+   ```
+2. The script reads the CSV files from `results/` and produces the corresponding figures.
+
+---
+
+## Datasets and Trained Models
+
+The curated datasets, instrumented files, and the trained models used in the study are **not included** in this repository due to size considerations.
+
+They will be made available in a **separate repository once the paper is accepted**, ensuring a stable and final version of the experimental artifacts.
+
+The current repository already provides all scripts and final result artifacts required to inspect and reproduce the reported analyses without retraining.
+
+---
+
+}
+```
