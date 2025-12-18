@@ -67,6 +67,3 @@ They will be made available in a **separate repository once the paper is accepte
 The current repository already provides all scripts and final result artifacts required to inspect and reproduce the reported analyses without retraining.
 
 ---
-
-}
-```
